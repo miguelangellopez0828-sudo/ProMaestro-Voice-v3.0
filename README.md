@@ -39,3 +39,48 @@ If neither condition is met → *No Go.*
 ---
 
 ## 4. Example Command
+
+
+
+
+
+{
+  "version": "v3.0",
+  "framework": "ProMaestro Voice – Cognitive Auditory Investment Model",
+  "as_of": "2025-10-05",
+  "core_metrics": {
+    "rev_cagr_3y": "Revenue CAGR (3 years)",
+    "gm": "Gross Margin",
+    "opm": "Operating Margin",
+    "fcf_margin": "Free Cash Flow Margin",
+    "rule_of_40": "Growth + Profitability Rule",
+    "recurring_revenue_pct": "Recurring Revenue %",
+    "nrr": "Net Revenue Retention",
+    "rd_to_sales": "R&D to Sales",
+    "sbc_to_sales": "Stock-Based Comp. to Sales",
+    "dilution_3y": "Share Dilution (3 years)",
+    "net_debt_to_ebitda": "Leverage Ratio",
+    "ev_to_sales": "Enterprise Value / Sales",
+    "ev_to_ebit": "Enterprise Value / EBIT"
+  },
+  "qualitative_factors": {
+    "moat_types": ["switching_costs", "data_networks", "brand", "ecosystem"],
+    "evidence_required": "Narrative proof from earnings calls or filings"
+  },
+  "tam_analysis": {
+    "now": "Current TAM in USD",
+    "cagr": "Expected TAM CAGR",
+    "expansion_paths": ["Sector adjacencies", "AI extensions", "Geographic scaling"]
+  },
+  "output_metrics": {
+    "prob_ge_10x": "Probability of >=10x over 5 years",
+    "expected_multiplier": "Expected Portfolio Multiplier (5Y)",
+    "compounder_score": "0–100 index for sustained compounding",
+    "tenbagger_score": "0–100 index for high asymmetry growth"
+  },
+  "verdict_classes": {
+    "1": "Compounder ≥ 5x (risk-controlled, NRR>1.15, GM>70%)",
+    "2": "TenBagger ≥ 10x (high-growth asymmetry, TRV>35%)",
+    "3": "Neutral/Undetermined"
+  }
+}
